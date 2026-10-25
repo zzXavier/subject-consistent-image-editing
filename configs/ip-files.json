@@ -1,0 +1,31 @@
+{
+  "repo": "h94/IP-Adapter",
+  "revision": "018e402774aeeddd60609b4ecdb7e298259dc729",
+  "files": [
+    {
+      "rfilename": "models/image_encoder/config.json",
+      "blobId": "9c841dd0314e27141ed01a24df1734e407a95c4a",
+      "size": 560
+    },
+    {
+      "rfilename": "models/image_encoder/model.safetensors",
+      "blobId": "590c45d8aba49bfa35bc489af660f732aab16568",
+      "size": 2528373448,
+      "lfs": {
+        "sha256": "6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030",
+        "size": 2528373448,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "models/ip-adapter_sd15.safetensors",
+      "blobId": "67788447289e5858c26dbc8fbf0a7ce3fd6c50fb",
+      "size": 44642768,
+      "lfs": {
+        "sha256": "289b45f16d043d0bf542e45831f971dcdaabe18b656f11e86d9dfba7e9ee3369",
+        "size": 44642768,
+        "pointerSize": 133
+      }
+    }
+  ]
+}

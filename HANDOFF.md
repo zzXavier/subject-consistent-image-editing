@@ -1,2 +1,12 @@
-Public inputs checked and isolated by product. Three conditional generation arms are implemented. CPU partitioning metric check: python -m unittest discover -s tests. Next run python run.py demo in a separate environment with the pinned dependencies and CUDA. Formal predictions and independent clean-clone reproduction are pending. Keep private until complete.
+# P07 handoff
+
+**Protocol** `sd15-four-channel-rgb-gallery-v1`. The frozen stock SD1.5 base has been verified and the pinned Diffusers inpainting pipeline completed a 128×128 single-step CPU smoke test. This smoke checks the four-channel mask path only. The formal run uses 384×384, 12 denoising steps, official image-prompt weights and three paired treatments.
+
+**Inputs.** Ten catalog inputs referenced by the final configuration and the two earlier reference JPEGs are stored in `examples/abo`. Four single-product subjects (2 development and 2 test) enter the formal run at two requested background colors. Three input/metric tests pass. Source versions, image hashes and independent gallery protocol are documented in the README and UPSTREAM.
+
+The [input audit](results/input-audit/README.md) explains replacing two first-pass references with views of the exterior of the same product and preserves the original observations. In the local multi-project workspace set `$env:P07_SD15_ROOT=(Resolve-Path '../_cache/sd15').Path` and `$env:P07_IP_ROOT=(Resolve-Path '../_cache/ip-adapter-sd15').Path` from this repository. Both snapshots are checked by Git blob or LFS SHA before use.
+
+**Measured run.** All 24 edited images finished on an RTX 4060 Laptop, along with the separate authors' `IPAdapter.generate` example. The maximum measured PyTorch allocation across the formal pipeline calls was 2,040,512,000 bytes. All four held-out requests and both development subjects have per-case images, masks, features and timings under `results/formal/`. Re-evaluating the saved observations reproduced the CSV with SHA-256 `8d469e47314aa62db173a63e83a2f15090c059d5a60a2974abe1e1fbecaac7c7`. The original encoder and attention weights were independently verified as `6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030` and `289b45f16d043d0bf542e45831f971dcdaabe18b656f11e86d9dfba7e9ee3369`.
+
+**Release check.** From a clean clone run `python run.py demo --output work/demo`, then `python run.py reproduce --output work/full` and `python run.py evaluate --output work/full`. Compare per-case scores against `results/formal/scores.csv`. Resume reuses complete cases only when input SHA-256 values match. A previously completed output directory is recomputed when requested.
 

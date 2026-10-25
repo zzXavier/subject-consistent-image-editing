@@ -1,0 +1,22 @@
+{
+  "B07FFHHG1Q": {
+    "split": "dev",
+    "correct": true,
+    "margin": 0.6511298864904401
+  },
+  "B07QCR35JF": {
+    "split": "dev",
+    "correct": false,
+    "margin": -0.14951859865841277
+  },
+  "B074H6ZXT5": {
+    "split": "test",
+    "correct": true,
+    "margin": 0.32121082881719093
+  },
+  "B0752GQ94S": {
+    "split": "test",
+    "correct": true,
+    "margin": 0.14952250685410184
+  }
+}
