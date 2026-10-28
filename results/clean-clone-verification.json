@@ -1,0 +1,37 @@
+{
+  "candidate_commit": "1679ab502a45b232761109ae4537f0f80a2565a4",
+  "validated_on": "2026-11-03",
+  "checkout": "New GitHub clone with --reference-if-able and --dissociate; no Git alternates; no tracked changes after verification.",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "environment": {
+    "python": "3.11.9",
+    "torch": "2.4.1+cu121",
+    "diffusers": "0.31.0",
+    "transformers": "4.44.2",
+    "accelerate": "0.34.2"
+  },
+  "cpu": {
+    "unit_tests_passed": 3,
+    "raw_case_folders": 8,
+    "network_disabled_during_archived_replay": true,
+    "all_persistent_model_files_matched_pinned_hashes": true,
+    "table_json_reports_rebuilt": 3,
+    "panels_rebuilt_byte_identical": 2
+  },
+  "gpu": {
+    "formal_requests": 8,
+    "methods_per_request": 3,
+    "generated_images": 24,
+    "max_absolute_uint8_pixel_difference": 0,
+    "max_absolute_embedding_difference": 0,
+    "metric_rows": 24,
+    "metrics_compared_per_row": 5,
+    "max_absolute_numeric_metric_difference": 0,
+    "matching_demo_images": 3,
+    "regenerated_scores_csv_sha256": "8d469e47314aa62db173a63e83a2f15090c059d5a60a2974abe1e1fbecaac7c7"
+  },
+  "retry": {
+    "first_attempt": "Windows native exit 0xC0000409 before the first demo image completed during concurrent workload; the cause was not established.",
+    "successful_attempt": "Same commit and dependency environment; reused the alternate local cache containing precisely the same verified weight files. The entire demo, full 24-image run and evaluation replay finished."
+  }
+}

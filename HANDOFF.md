@@ -10,3 +10,5 @@ The [input audit](results/input-audit/README.md) explains replacing two first-pa
 
 **Release check.** From a clean clone run `python run.py demo --output work/demo`, then `python run.py reproduce --output work/full` and `python run.py evaluate --output work/full`. Compare per-case scores against `results/formal/scores.csv`. Resume reuses complete cases only when input SHA-256 values match. A previously completed output directory is recomputed when requested.
 
+The release candidate `1679ab502a45b232761109ae4537f0f80a2565a4` passed this check from a separate, dissociated GitHub clone. All 24 generated images, saved image embeddings, numeric scores and the three demo images matched the recorded run exactly on the same RTX 4060 Laptop. All three input/metric tests passed. A first concurrent Windows attempt exited with native status `0xC0000409` before completing one image; retrying with byte-verified local model files completed every case. The offline replay also regenerated the tabular results and both comparison panels using only the saved case data.
+
