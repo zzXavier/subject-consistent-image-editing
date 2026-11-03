@@ -1,9 +1,2 @@
-# Upstream sources
+https://github.com/tencent-ailab/IP-Adapter/tree/62e4af9d0c1ac7d5f8dd386a0ccf2211346af1a2 (code Apache-2.0). Reuses published IP-Adapter SD1.5 weights from https://huggingface.co/h94/IP-Adapter/tree/018e402774aeeddd60609b4ecdb7e298259dc729 via official Diffusers load_ip_adapter. Diffusers 0.31.0 implements masked image-prompt attention. Stable Diffusion base inpainting snapshot https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-inpainting/tree/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb (see model card). Downloads remain outside Git. Dataset URL and CC BY 4.0 attribution in data.md.
 
-[tencent-ailab/IP-Adapter](https://github.com/tencent-ailab/IP-Adapter/tree/62e4af9d0c1ac7d5f8dd386a0ccf2211346af1a2)
-
-- Revision: 62e4af9d0c1ac7d5f8dd386a0ccf2211346af1a2
-- Reported code license: Apache-2.0
-- Starting point: ip_adapter_demo.ipynb
-- Integration: use the upstream implementation as a separately pinned dependency. Preserve the original notices when redistributing source.
-- Weights and data have separate terms. Their source, revision and attribution belong with the experiment manifest.
