@@ -30,7 +30,7 @@ The author-supplied IP-Adapter uses the same stock SD1.5 base in all arms. The D
 
 All formal references show the exterior of the same catalog product as the source. The [input audit](results/input-audit/README.md) records replacing a sachet and a human-silhouette photo with alternate views from their original listings. The separate [reference-only generation](results/author/generated.png) was produced through the original Tencent package from [this photograph](results/author/reference.png) and is outside the paired metrics.
 
-The original catalog JPEGs are included in `examples/abo` and checked against `configs/products.json`. The contact sheet in `examples/source-images.jpg` shows actual catalog inputs. For previously downloaded models, set `P07_SD15_ROOT` to the pinned base directory and `P07_IP_ROOT` to the pinned adapter snapshot root. The runner verifies the hashes before inference. Otherwise it downloads the components to `.cache`. See [UPSTREAM.md](UPSTREAM.md) and [HANDOFF.md](HANDOFF.md).
+The original catalog JPEGs are included in `examples/abo` and checked against `configs/products.json`. The contact sheet in `examples/source-images.jpg` shows actual catalog inputs. For previously downloaded models, set `SUBJECT_EDIT_SD15_ROOT` to the pinned base directory and `SUBJECT_EDIT_IP_ROOT` to the pinned adapter snapshot root. The runner verifies the hashes before inference. Otherwise it downloads the components to `.cache`. See [UPSTREAM.md](UPSTREAM.md) and [HANDOFF.md](HANDOFF.md).
 
 To run the separate reference-only generation example directly through Tencent's original package:
 

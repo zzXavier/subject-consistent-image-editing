@@ -136,10 +136,10 @@ def snapshot(repo, rev, patterns):
     return path
 
 
-def obtain(manifest_name, override):
+def obtain(manifest_name, override, legacy_override):
     manifest = json.loads((ROOT/"configs"/manifest_name).read_text(encoding="utf-8-sig"))
     files = manifest["files"]
-    directory = os.environ.get(override)
+    directory = os.environ.get(override) or os.environ.get(legacy_override)
     path = Path(directory) if directory else snapshot(manifest["repo"],manifest["revision"],
                                                      [item["rfilename"] for item in files])
     for item in files:
@@ -160,8 +160,8 @@ def obtain(manifest_name, override):
 
 
 def models():
-    ip = obtain("ip-files.json","P07_IP_ROOT")
-    sd = obtain("sd15-files.json","P07_SD15_ROOT")
+    ip = obtain("ip-files.json", "SUBJECT_EDIT_IP_ROOT", "P07_IP_ROOT")
+    sd = obtain("sd15-files.json", "SUBJECT_EDIT_SD15_ROOT", "P07_SD15_ROOT")
     return sd, ip
 
 
