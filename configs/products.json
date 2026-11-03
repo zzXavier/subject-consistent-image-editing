@@ -3,10 +3,10 @@
     "id": "B07FFHHG1Q",
     "name": "lemonade",
     "photo": "90/90408e42.jpg",
-    "reference": "1c/1c061a66.jpg",
+    "reference": "b7/b7a8d83d.jpg",
     "split": "dev",
     "photo_sha256": "064e8dc335dd10e66aa6356a82e9e6a8b790beaef177675e42d1e9860ac9d700",
-    "reference_sha256": "5a940b8e18e54087ac46224c6d0e1baf27851cd3d565a23ecd4e2e4cca621847"
+    "reference_sha256": "aaaec68dffc355c5ff65ce031f498c737eaff81a7c28f637768051f749c9403b"
   },
   {
     "id": "B07QCR35JF",
@@ -39,9 +39,9 @@
     "id": "B0752GQ94S",
     "name": "shampoo",
     "photo": "6a/6a9c0e39.jpg",
-    "reference": "c7/c76e6501.jpg",
+    "reference": "9c/9c580902.jpg",
     "split": "test",
     "photo_sha256": "66904bf37f849c12fd9aeb6633e57271b8e6fa92a6418d93b5453a68e21ae213",
-    "reference_sha256": "5aa02594052cbbdc7b7298b3d656abe2f4de0c2ed5884e2deb67cd249621c46b"
+    "reference_sha256": "b070b1d90cfc8b023ad3c1ba2efd9ccc100e57bda6e51d4dbf86b6a0cb5d08ac"
   }
 ]

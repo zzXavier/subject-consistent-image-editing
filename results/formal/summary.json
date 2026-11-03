@@ -1,0 +1,23 @@
+{
+  "text": {
+    "reference_cosine": 0.5615730211138725,
+    "outside_edit_mae": 15.432563998943115,
+    "requested_hue_fraction": 0.22702209042962146,
+    "color_gallery_correct": 1.0,
+    "color_gallery_margin": 0.2249306059107027
+  },
+  "reference": {
+    "reference_cosine": 0.5892755538225174,
+    "outside_edit_mae": 17.208811624860257,
+    "requested_hue_fraction": 0.1244266929886949,
+    "color_gallery_correct": 0.75,
+    "color_gallery_margin": 0.16260854246424997
+  },
+  "regional": {
+    "reference_cosine": 0.5576972961425781,
+    "outside_edit_mae": 17.055636547109934,
+    "requested_hue_fraction": 0.20428259344167646,
+    "color_gallery_correct": 1.0,
+    "color_gallery_margin": 0.258931759318875
+  }
+}

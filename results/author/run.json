@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "62e4af9d0c1ac7d5f8dd386a0ccf2211346af1a2",
+  "api": "ip_adapter.IPAdapter.generate",
+  "subject": "B074H6ZXT5",
+  "reference_sha256": "add58efc47df6434dc5dcfe2b4f67aa80dca48221cc180816ec8b02ab5310a75",
+  "prompt": "product photo of a coffee package on a blue studio background",
+  "steps": 12,
+  "seed": 13,
+  "scale": 0.6,
+  "scope": "reference-only text-to-image example, separate from paired inpainting metrics"
+}

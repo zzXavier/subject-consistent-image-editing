@@ -1,0 +1,197 @@
+{
+  "model": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "adapter": "018e402774aeeddd60609b4ecdb7e298259dc729",
+  "steps": 12,
+  "size": 384,
+  "seed": 13,
+  "cases": [
+    {
+      "case": "B07FFHHG1Q-blue",
+      "id": "B07FFHHG1Q",
+      "split": "dev",
+      "color": "blue",
+      "source_sha256": "064e8dc335dd10e66aa6356a82e9e6a8b790beaef177675e42d1e9860ac9d700",
+      "reference_sha256": "aaaec68dffc355c5ff65ce031f498c737eaff81a7c28f637768051f749c9403b",
+      "timing": {
+        "text": {
+          "seconds": 4.100218500003393,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 3.8187541000006604,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 3.614216399997531,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      }
+    },
+    {
+      "case": "B07FFHHG1Q-red",
+      "id": "B07FFHHG1Q",
+      "split": "dev",
+      "color": "red",
+      "source_sha256": "064e8dc335dd10e66aa6356a82e9e6a8b790beaef177675e42d1e9860ac9d700",
+      "reference_sha256": "aaaec68dffc355c5ff65ce031f498c737eaff81a7c28f637768051f749c9403b",
+      "timing": {
+        "text": {
+          "seconds": 10.47054670000216,
+          "peak_cuda_allocated_bytes": 2038824448
+        },
+        "reference": {
+          "seconds": 4.768762699997751,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 5.299894499999937,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      }
+    },
+    {
+      "case": "B07QCR35JF-blue",
+      "id": "B07QCR35JF",
+      "split": "dev",
+      "color": "blue",
+      "timing": {
+        "text": {
+          "seconds": 5.042357099999208,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 4.748008199996548,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 4.300327400000242,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      },
+      "source_sha256": "60ac0d29135f434b81798b24e12e855fbf51b9abacfa9303f0bdec55b2682a7d",
+      "reference_sha256": "b7a64ea828771f4f2c33ed71514396ffe675aa265883436e7dd7ce2905a11799"
+    },
+    {
+      "case": "B07QCR35JF-red",
+      "id": "B07QCR35JF",
+      "split": "dev",
+      "color": "red",
+      "timing": {
+        "text": {
+          "seconds": 6.214714200003073,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 5.357170100003714,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 4.8063954999961425,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      },
+      "source_sha256": "60ac0d29135f434b81798b24e12e855fbf51b9abacfa9303f0bdec55b2682a7d",
+      "reference_sha256": "b7a64ea828771f4f2c33ed71514396ffe675aa265883436e7dd7ce2905a11799"
+    },
+    {
+      "case": "B074H6ZXT5-blue",
+      "id": "B074H6ZXT5",
+      "split": "test",
+      "color": "blue",
+      "timing": {
+        "text": {
+          "seconds": 3.861857099996996,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 3.8095350000003236,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 3.634946199999831,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      },
+      "source_sha256": "c43e6388f5acd9e1753d79979c95c3428b16ea6111a2563cdbae6cd83e6ab308",
+      "reference_sha256": "add58efc47df6434dc5dcfe2b4f67aa80dca48221cc180816ec8b02ab5310a75"
+    },
+    {
+      "case": "B074H6ZXT5-red",
+      "id": "B074H6ZXT5",
+      "split": "test",
+      "color": "red",
+      "timing": {
+        "text": {
+          "seconds": 4.199317500002508,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 4.301594499993371,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 3.7911822000023676,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      },
+      "source_sha256": "c43e6388f5acd9e1753d79979c95c3428b16ea6111a2563cdbae6cd83e6ab308",
+      "reference_sha256": "add58efc47df6434dc5dcfe2b4f67aa80dca48221cc180816ec8b02ab5310a75"
+    },
+    {
+      "case": "B0752GQ94S-blue",
+      "id": "B0752GQ94S",
+      "split": "test",
+      "color": "blue",
+      "source_sha256": "66904bf37f849c12fd9aeb6633e57271b8e6fa92a6418d93b5453a68e21ae213",
+      "reference_sha256": "b070b1d90cfc8b023ad3c1ba2efd9ccc100e57bda6e51d4dbf86b6a0cb5d08ac",
+      "timing": {
+        "text": {
+          "seconds": 3.1527714999974705,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 3.4921523000011803,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 3.307860199995048,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      }
+    },
+    {
+      "case": "B0752GQ94S-red",
+      "id": "B0752GQ94S",
+      "split": "test",
+      "color": "red",
+      "source_sha256": "66904bf37f849c12fd9aeb6633e57271b8e6fa92a6418d93b5453a68e21ae213",
+      "reference_sha256": "b070b1d90cfc8b023ad3c1ba2efd9ccc100e57bda6e51d4dbf86b6a0cb5d08ac",
+      "timing": {
+        "text": {
+          "seconds": 3.3218871999997646,
+          "peak_cuda_allocated_bytes": 2039922176
+        },
+        "reference": {
+          "seconds": 3.649237900004664,
+          "peak_cuda_allocated_bytes": 2039758336
+        },
+        "regional": {
+          "seconds": 3.523960399994394,
+          "peak_cuda_allocated_bytes": 2040512000
+        }
+      }
+    }
+  ],
+  "status": "completed",
+  "expected_cases": 8,
+  "protocol": "sd15-four-channel-rgb-gallery-v1",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "environment": {
+    "python": "3.11.9",
+    "cuda": "12.1",
+    "torch": "2.4.1+cu121",
+    "diffusers": "0.31.0",
+    "transformers": "4.44.2",
+    "accelerate": "0.34.2"
+  }
+}
